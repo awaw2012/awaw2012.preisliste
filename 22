@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #d5dbd6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 60px;
+            color: #000000;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item:last-child {
+            margin-bottom: 0;
+        }
+        .menu-item img {
+            max-width: 150px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+        .menu-item-details {
+            flex: 1;
+        }
+        .menu-item-details h2 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        .menu-item-details p {
+            color: #000000;
+            margin-bottom: 5px;
+        }
+        .menu-item-details .price {
+            font-weight: bold;
+            color: #00a063;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Preis Liste</h1>
+        <div class="menu-item">
+            <img src="1.jpg" alt="Item 1">
+            <div class="menu-item-details">
+                <h2>20 Artikel</h2>
+                <p>Sie kriegen 20 Artikel nach Ihrem Wunsch Erstellt.</p>
+                <p class="price">€ 99.00</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="2.jpg" alt="Item 2">
+            <div class="menu-item-details">
+                <h2>40 Artikel</h2>
+                <p>Sie kriegen zwischen bis zu 40 Artikel nach Ihrem Wunsch Erstellt.</p>
+                <p class="price">€ 179.00</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="3.jpg" alt="Item 3">
+            <div class="menu-item-details">
+                <h2>60 Artikel</h2>
+                <p>Sie kriegen zwischen bis zu 60 Artikel nach Ihrem Wunsch Erstellt.</p>
+                <p class="price">€ 259.00</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="4.jpg" alt="Item 4">
+            <div class="menu-item-details">
+                <h2>80 Artikel</h2>
+                <p>Sie kriegen zwischen bis zu 80 Artikel nach Ihrem Wunsch Erstellt.</p>
+                <p class="price">€ 339.00</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="5.jpg" alt="Item 5">
+            <div class="menu-item-details">
+                <h2>100 Artikel+</h2>
+                <p>Sie kriegen ab 80 Artikel nach Ihrem Wunsch Erstellt.</p>
+                <p class="price">€ 399.00</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
